@@ -1,7 +1,6 @@
+package Probas;
 
-/**
- * Created by usu26 on 16/09/2016.
- */
+
 public class Coche {
     private String marca;
     private String modelo;
