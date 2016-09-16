@@ -23,6 +23,20 @@ public class Main {
 
         System.out.println("Muestro el Mercedes: "+cocheList.get(1));
 
+        Map<String, Coche> cocheMap = new HashMap<>();
+
+        cocheMap.put("3453WRD",jaguar);
+
+        cocheMap.put("7645DRE",bmw);
+
+        cocheMap.put("7645DRE",mercedes);
+
+        System.out.println("Muestro el Jaguar a partir de su matricula: "+cocheMap.get("3234RRD"));
+
+        System.out.println("Muestro las Keys del HashMap: "+cocheMap.keySet());
+
+        System.out.println("Muestro los valores del HashMap: "+cocheMap.value());
+
 
 
 
